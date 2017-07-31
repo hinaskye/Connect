@@ -51,6 +51,15 @@ input, button {
   opacity: 0.9;
 }
 
+.logo2 {
+  width:32%;
+  height:auto;
+  padding-top: 1.5%;
+  margin-left: auto;
+  margin-right:auto;
+  opacity: 0.9;
+}
+
 .loginTable {
   position: absolute;
   top: 50%;
@@ -182,6 +191,150 @@ input, button {
 .login__signup a {
   color: #fff;
   cursor: pointer;
+}
+
+.questionTable {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  margin-left: -15rem;
+  margin-top: -26.5rem;
+  width: 117rem;
+  height: 66rem;
+  overflow: hidden;
+}
+
+.question {
+  position: relative;
+  height: 100%;
+  background: -webkit-linear-gradient(top, rgba(146, 135, 187, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%);
+  background: linear-gradient(to bottom, rgba(146, 135, 187, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%);
+}
+
+.question_button{
+  margin-left: 21%;
+  margin-top:7%;
+}
+
+.questionText{
+  margin-left:21%;
+  margin-bottom:1%;
+  font-size:30px;
+  color:#696969;
+  width:65rem;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  opacity: 0.4;
+}
+
+.questionText_name{
+  margin-left:75%;
+  font-size:30px;
+  color:#696969;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  opacity: 0.4;
+}
+
+.questionText_gender{
+  position:relative;
+  display: inline-block;
+  padding-left:10px;
+  padding-right: 20px;
+  padding-top: 5px
+  padding-bottom:5px;
+  color:#A9A9A9;
+  font-size: 22px
+}
+
+.questionText_birthday{
+  margin-left:21%;
+  margin-top: 1%;
+  margin-bottom:-1%;
+  font-size:30px;
+  color:#A9A9A9;
+}
+
+.questionText_selectDate{
+  margin-bottom:1%;
+}
+
+.questionForm{
+  position:relative;
+  padding:5px;
+}
+
+.questionForm_name{
+  position:relative;
+  padding:5px;
+}
+
+.questionForm_gender{
+  margin-left:21%;
+}
+
+.questionForm_button{
+  background-color: rgb(53, 191, 90);
+  border-radius: 12px;
+  border: 1px solid rgb(24, 171, 41);
+  display: inline-block;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-family: "Trebuchet MS";
+  font-size: 22px;
+  font-weight: bold;
+  padding: 12px 27px;
+  text-decoration: none;
+  text-shadow: rgb(47, 102, 39) 0px 2px 3px;
+}
+
+.nameForm{
+  display: inline-block;
+  padding:10px;
+}
+
+.month{
+  width:200px;
+  height:35px;
+  font-size:15px;
+  opacity: 0.4;
+}
+
+.month option{
+  width:200px;
+  height:35px;
+  font-size:15px;
+  opacity: 0.4;
+}
+
+.day{
+  width:200px;
+  height:35px;
+  font-size:15px;
+  opacity: 0.4;
+}
+
+.day option{
+  width:200px;
+  height:35px;
+  font-size:15px;
+  opacity: 0.4;
+}
+
+.year{
+  width:200px;
+  height:35px;
+  font-size:15px;
+  opacity: 0.4;
+}
+
+.year option{
+  width:200px;
+  height:35px;
+  font-size:15px;
+  opacity: 0.4;
 }
 
 .app {
