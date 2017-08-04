@@ -7,7 +7,6 @@
 html, body {
   font-size: 62.5%;
   height: 100%;
-  overflow: hidden;
 }
 @media (max-width: 768px) {
   html, body {
@@ -201,7 +200,6 @@ input, button {
   margin-top: -26.5rem;
   width: 117rem;
   height: 66rem;
-  overflow: hidden;
 }
 
 .question {
@@ -243,7 +241,7 @@ input, button {
   display: inline-block;
   padding-left:10px;
   padding-right: 20px;
-  padding-top: 5px
+  padding-top: 5px;
   padding-bottom:5px;
   color:#A9A9A9;
   font-size: 22px
@@ -290,9 +288,49 @@ input, button {
   text-shadow: rgb(47, 102, 39) 0px 2px 3px;
 }
 
+
+.questionForm_Q1Container{
+  position:relative;
+  display: inline-block;
+  padding-left:20%;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom:5px;
+  color:#A9A9A9;
+  font-size: 22px;
+}
+
+.questionForm_Q1Title{
+  position:relative;
+  display: inline-block;
+  padding-left:10px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom:5px;
+  color:#A9A9A9;
+  font-size: 22px;
+  float: left;
+  width: 100%;
+}
+
+.questionForm_Q1{
+  position:relative;
+  display: inline-block;
+  padding-left:10px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom:5px;
+  color:#A9A9A9;
+  font-size: 22px;
+}
+
+
+
 .nameForm{
   display: inline-block;
   padding:10px;
+  position: relative;
+  right:4%;
 }
 
 .month{
