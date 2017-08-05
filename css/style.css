@@ -199,7 +199,7 @@ input, button {
   margin-left: -15rem;
   margin-top: -26.5rem;
   width: 117rem;
-  height: 66rem;
+  height: 285rem;
 }
 
 .question {
@@ -211,7 +211,7 @@ input, button {
 
 .question_button{
   margin-left: 21%;
-  margin-top:7%;
+  margin-top:2%;
 }
 
 .questionText{
@@ -289,7 +289,7 @@ input, button {
 }
 
 
-.questionForm_Q1Container{
+.questionForm_containerLayout{
   position:relative;
   display: inline-block;
   padding-left:20%;
@@ -300,7 +300,7 @@ input, button {
   font-size: 22px;
 }
 
-.questionForm_Q1Title{
+.questionForm_QTitleLayout{
   position:relative;
   display: inline-block;
   padding-left:10px;
@@ -313,7 +313,7 @@ input, button {
   width: 100%;
 }
 
-.questionForm_Q1{
+.questionForm_QLayout, .questionForm_AnswerLayout{
   position:relative;
   display: inline-block;
   padding-left:10px;
@@ -323,8 +323,6 @@ input, button {
   color:#A9A9A9;
   font-size: 22px;
 }
-
-
 
 .nameForm{
   display: inline-block;
