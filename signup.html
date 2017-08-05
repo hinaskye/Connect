@@ -9,6 +9,15 @@
 
       <link rel="stylesheet" href="css/style.css">
       <script type="text/javascript">
+	  function validateEmail() {
+			var x = document.forms["form"]["email"].value;
+			var atpos = x.indexOf("@");
+			var dotpos = x.lastIndexOf(".");
+			if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+				alert("Not a valid e-mail address");
+				return false;
+			}
+		}
         function call(){
         var kcyear = document.getElementsByName("year")[0],
         kcmonth = document.getElementsByName("month")[0],
@@ -45,7 +54,7 @@
 </head>
   <body>
     <div class="cont">
-      <form action="" method="post">
+      <form action="" name="form" onsubmit="return validateEmail();" method="post">
         <div class="questionTable">
           <div class="question">
             <div class="logo2">
@@ -63,7 +72,7 @@
                 <input type="text" class="questionText" placeholder="Username" required="">
             </div>
             <div class="questionForm">
-                <input type="email" class="questionText" placeholder="Email Address" required="">
+                <input type="email" name="email" class="questionText" placeholder="Email Address" required="">
             </div>
             <div class="questionForm">
                 <input type="password" class="questionText" placeholder="Password" required="">
