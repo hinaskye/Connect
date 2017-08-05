@@ -199,7 +199,7 @@ input, button {
   margin-left: -15rem;
   margin-top: -26.5rem;
   width: 117rem;
-  height: 285rem;
+  height: 295rem;
 }
 
 .question {
@@ -227,7 +227,7 @@ input, button {
 }
 
 .questionText_name{
-  margin-left:75%;
+  margin-left:51%;
   font-size:30px;
   color:#696969;
   -webkit-border-radius: 5px;
@@ -328,7 +328,7 @@ input, button {
   display: inline-block;
   padding:10px;
   position: relative;
-  right:4%;
+  left:4%;
 }
 
 .month{
@@ -529,4 +529,22 @@ input, button {
   to {
     stroke-dashoffset: 0;
   }
+}
+
+.imgUpload{
+  position:relative;
+  display: inline-block;
+  padding-left:10px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom:5px;
+  color:#A9A9A9;
+  font-size: 22px;
+}
+.uploadImage{
+  margin-left:21%;
+  margin-top: 1%;
+  margin-bottom:-1%;
+  font-size:30px;
+  color:#A9A9A9;
 }

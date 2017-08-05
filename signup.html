@@ -53,10 +53,10 @@
             </div>
             <div class="questionForm_name">
               <div class="nameForm">
-                <input type="text" class="questionText_name" placeholder="First Name" required="">
+                <input type="text" class="questionText_name" placeholder="First Name" required="" pattern="^([A-Za-z]+[,.]?[ ]?|[A-Za-z]+['-]?)+$">
               </div>
               <div class="nameForm">
-                <input type="text" class="questionText_name" placeholder="Last Name" required="">
+                <input type="text" class="questionText_name" placeholder="Last Name" required="" pattern="^([A-Za-z]+[,.]?[ ]?|[A-Za-z]+['-]?)+$">
               </div>
             </div>
             <div class="questionForm">
@@ -102,6 +102,10 @@
                   </div>
                </div>
             </div>
+			<div class="uploadImage">
+				<label class="imgUpload">Select image to upload:</label><br>
+				<input type="file" name="fileToUpload" class="fileToUpload">
+			</div>
               </span>
               <div class="questionForm_Q1Container questionForm_containerLayout">
 				<div class="questionForm_Q1Title questionForm_QTitleLayout">
