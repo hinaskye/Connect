@@ -96,6 +96,20 @@ img.frame:hover {
     box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
 }
 
+.matchingPercent{
+	position:absolute;
+	margin-left: 80%;
+	background-color: rgba(255, 131, 121, 0.9);
+	padding:5px;
+	padding-left: 20px;
+	color:#FFF;
+	border-radius: 5px;
+}
+
+.photodiv{
+	display: block;
+}
+
 h1,h2,h3,h4,h5{
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
@@ -228,6 +242,7 @@ svg {
 	margin-left: 10px;
 	margin-right: 10px;
 	padding:0 8px;
+	position:relative;
 }
 
 .row-name{
@@ -242,6 +257,7 @@ svg {
 .row-white{
 	color:#FFF;
 	background-color:rgba(0,0,0,0.3)!important;
+	padding-right: 10px;
 }
 
 .row-margin-bottom{
